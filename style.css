@@ -275,3 +275,33 @@ footer a {
   display: block;
 }
 
+/* ===== TELEFON KECIL ===== */
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 10px 14px;
+  }
+
+  nav {
+    gap: 4px 10px;
+  }
+
+  nav a {
+    font-size: 0.88rem;
+  }
+
+  #atas h1 {
+    font-size: 1.6rem;
+  }
+
+  #harga p strong {
+    font-size: 2rem;
+  }
+
+  .peta iframe {
+    height: 280px;
+  }
+}
